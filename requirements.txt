@@ -1,0 +1,24 @@
+# 4R022 Ear Control - Bağımlılıklar / Dependencies
+# ===================================================
+# Ortak (tüm platformlar) / Common (all platforms)
+PyQt6>=6.6.0
+psutil>=5.9.0
+
+# Yalnızca Windows / Windows only
+# (Uygulama başına ses kontrolü Windows Core Audio API'lerine erişim için gerekir)
+pycaw>=20230407; sys_platform == "win32"
+comtypes>=1.2.0; sys_platform == "win32"
+
+# Linux için ek bir Python paketi GEREKMEZ:
+# - Sistemdeki `pactl` komut satırı aracı kullanılır (PulseAudio /
+#   PipeWire-Pulse ile birlikte gelir).
+#
+# No extra Python package is required for Linux:
+# - Uses the system `pactl` command-line tool (ships with
+#   PulseAudio / PipeWire-Pulse).
+#
+# Not: macOS bu sürümde desteklenmemektedir.
+# Note: macOS is not supported in this release.
+
+# Paketleme (opsiyonel, geliştirme ortamında) / Packaging (optional, dev)
+pyinstaller>=6.3.0

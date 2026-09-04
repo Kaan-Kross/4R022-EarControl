@@ -1,24 +1,203 @@
-This is free and unencumbered software released into the public domain.
+4R022 EAR CONTROL — TESCİLLİ YAZILIM LİSANSI
+==============================================
+Sürüm 1.5.0 · © 2026 Kaan Kross / 4R022. Tüm hakları saklıdır.
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+Bu yazılım ("4R022 Ear Control") ve beraberindeki tüm kaynak kodu,
+tasarım varlıkları (ikonlar, marka amblemleri, renk paleti) ve
+dokümantasyon, Kaan Kross'a ("Geliştirici", marka adıyla "4R022") aittir
+ve telif hakkı yasalarıyla korunmaktadır. Bu yazılımı indirerek,
+kurarak veya kullanarak aşağıdaki şartları kabul etmiş sayılırsınız.
 
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
+1. TANIMLAR
+   "Yazılım" ifadesi; kaynak kodu, derlenmiş çalıştırılabilir dosyaları
+   (.exe ve diğer platform binary'leri), ikonları, logoları, marka
+   varlıklarını ve dokümantasyonu (README, CHANGELOG, bu Lisans dahil)
+   kapsar. "Geliştirici", Kaan Kross'u; "Kullanıcı", Yazılımı indiren,
+   kuran veya kullanan gerçek veya tüzel kişiyi ifade eder.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
+2. KULLANIM İZNİ
+   Bu Yazılımı kişisel veya kurumsal amaçlarla, değiştirmeden ve
+   kaynağını belirterek, ücretsiz olarak kullanabilirsiniz. Geliştirici,
+   bu Yazılımı "OLDUĞU GİBİ" sunar; kullanım sorumluluğu tamamen
+   Kullanıcıya aittir.
 
-For more information, please refer to <https://unlicense.org>
+3. KISITLAMALAR
+   Aşağıdaki eylemler, Geliştiricinin önceden yazılı izni olmadan KESİNLİKLE
+   YASAKTIR:
+     a) Yazılımın tersine mühendisliğinin yapılması, kaynak koddan
+        türetilmiş çalışmalar üretilmesi veya kodun okunabilir/anlaşılır
+        forma dönüştürülmeye çalışılması,
+     b) Yazılımın, kodunun veya varlıklarının (ikon, logo, "4R022" marka
+        adı dahil) değiştirilerek veya değiştirilmeden yeniden dağıtılması,
+        satılması, kiralanması veya kendi ürünü gibi sunulması,
+     c) "4R022" marka adının, logosunun veya bordo/siyah/gri kurumsal
+        kimliğinin başka bir yazılım, hizmette veya pazarlama materyalinde
+        izinsiz kullanılması,
+     d) Yazılımın kötü amaçlı yazılım, casus yazılım veya benzeri zararlı
+        bir bileşenle birlikte dağıtılması veya böyle bir amaçla
+        değiştirilmesi,
+     e) Yazılımın, üçüncü bir tarafın işletim sistemi ses API'lerine
+        yetkisiz veya kötüye kullanım amaçlı erişim sağlamak için temel
+        alınması.
+
+4. FİKRİ MÜLKİYET
+   Yazılımdaki tüm fikri mülkiyet hakları (telif hakkı, marka hakkı,
+   tasarım hakları dahil) Geliştiriciye aittir. Bu lisans, size Yazılımı
+   kullanma hakkı tanır; mülkiyet, devir veya lisans verme (alt lisans)
+   hakkı tanımaz.
+
+5. ÜÇÜNCÜ TARAF BİLEŞENLER
+   Yazılım; PyQt6, pycaw, comtypes ve psutil gibi açık kaynaklı üçüncü
+   taraf kütüphaneleri kullanır. Bu kütüphaneler kendi lisans şartlarına
+   tabidir ve bu Lisans kapsamı dışındadır. Bu bileşenlerin lisans
+   metinlerine ilgili projelerin resmi kaynaklarından ulaşılabilir.
+
+6. GİZLİLİK
+   Bu Yazılım, hiçbir kişisel veriyi uzak sunuculara göndermez, kullanım
+   istatistiği toplamaz ve internet bağlantısı gerektirmez. Tüm ayarlar
+   yalnızca yerel kullanıcı veri klasöründe (ör. Windows'ta `%APPDATA%`)
+   saklanır.
+
+7. GÜNCELLEMELER VE DEĞİŞİKLİKLER
+   Geliştirici, Yazılımı önceden bildirimde bulunmaksızın güncelleme,
+   değiştirme veya sonlandırma hakkını saklı tutar. Bu Lisansın
+   güncellenmiş sürümleri, ilgili GitHub deposunda yayımlandığı andan
+   itibaren geçerli olur.
+
+8. SORUMLULUK REDDİ
+   Yazılım "OLDUĞU GİBİ" ve hiçbir açık veya zımni garanti olmaksızın
+   sunulur. Geliştirici, doğrudan veya dolaylı hiçbir zarardan (veri
+   kaybı, sistem arızası, ses donanımı sorunları, iş kaybı dahil ancak
+   bunlarla sınırlı olmamak üzere) sorumlu tutulamaz.
+
+9. SORUMLULUĞUN SINIRLANDIRILMASI
+   Yürürlükteki mevzuatın izin verdiği azami ölçüde, Geliştiricinin bu
+   Yazılımdan doğan toplam sorumluluğu, hiçbir koşulda Kullanıcının
+   Yazılım için ödediği bedeli (varsa) aşamaz. Yazılım ücretsiz
+   sağlandığından, bu sorumluluk fiilen sıfırdır.
+
+10. FESİH
+    Bu lisans şartlarının ihlali durumunda, Yazılımı kullanma izniniz
+    otomatik olarak ve derhal sona erer. Fesih halinde, Yazılımın tüm
+    kopyalarını silmeniz beklenir.
+
+11. UYGULANACAK HUKUK
+    Bu Lisans, Türkiye Cumhuriyeti kanunlarına tabidir ve bu kanunlara
+    göre yorumlanır. Doğabilecek uyuşmazlıklarda Türkiye mahkemeleri
+    yetkilidir.
+
+12. BÖLÜNEBİLİRLİK
+    Bu Lisansın herhangi bir maddesinin geçersiz veya uygulanamaz
+    sayılması, diğer maddelerin geçerliliğini etkilemez; geçersiz madde,
+    amacına en yakın geçerli bir hükümle değiştirilmiş sayılır.
+
+13. LİSANSIN TAMAMI
+    Bu belge, Geliştirici ile Kullanıcı arasında Yazılımın kullanımına
+    ilişkin tam ve nihai anlaşmayı oluşturur ve önceki tüm sözlü veya
+    yazılı anlaşmaların yerine geçer.
+
+İletişim: GitHub üzerinden Kaan Kross / 4R022 profiline ulaşabilirsiniz.
+
+
+------------------------------------------------------------------------
+
+
+4R022 EAR CONTROL — PROPRIETARY SOFTWARE LICENSE
+===================================================
+Version 1.5.0 · © 2026 Kaan Kross / 4R022. All rights reserved.
+
+This software ("Software"), along with all accompanying source code,
+design assets (icons, brand marks, color palette), and documentation, is
+owned by Kaan Kross ("Developer", operating under the brand "4R022") and
+is protected by copyright law. By downloading, installing, or using this
+Software, you agree to be bound by the terms below.
+
+1. DEFINITIONS
+   "Software" means the source code, compiled executables (.exe and other
+   platform binaries), icons, logos, brand assets, and documentation
+   (including the README, CHANGELOG, and this License). "Developer" means
+   Kaan Kross; "User" means any individual or entity downloading,
+   installing, or using the Software.
+
+2. PERMITTED USE
+   You may use this Software for personal or organizational purposes,
+   free of charge, unmodified, and with attribution to its source. The
+   Developer provides this Software "AS IS"; use is entirely at the
+   User's own risk.
+
+3. RESTRICTIONS
+   The following actions are STRICTLY PROHIBITED without the Developer's
+   prior written consent:
+     a) Reverse engineering the Software, producing derivative works from
+        its source code, or attempting to decompile it into readable form,
+     b) Redistributing, selling, renting, or presenting the Software, its
+        code, or its assets (including icons, logos, and the "4R022"
+        brand name) — modified or unmodified — as your own product,
+     c) Using the "4R022" brand name, logo, or the bordeaux/black/gray
+        corporate identity in another software, service, or marketing
+        material without permission,
+     d) Distributing the Software bundled with malware, spyware, or any
+        similarly harmful component, or modifying it for such a purpose,
+     e) Using the Software as a basis for unauthorized or abusive access
+        to a third party's operating system audio APIs.
+
+4. INTELLECTUAL PROPERTY
+   All intellectual property rights in the Software (including copyright,
+   trademark, and design rights) belong to the Developer. This license
+   grants you the right to use the Software; it does not grant ownership,
+   transfer, or sublicensing rights.
+
+5. THIRD-PARTY COMPONENTS
+   The Software uses open-source third-party libraries such as PyQt6,
+   pycaw, comtypes, and psutil. These libraries are subject to their own
+   license terms and fall outside the scope of this License. Their
+   license texts can be found through the respective projects' official
+   sources.
+
+6. PRIVACY
+   This Software does not transmit any personal data to remote servers,
+   does not collect usage statistics, and does not require an internet
+   connection. All settings are stored exclusively in the local user data
+   folder (e.g. `%APPDATA%` on Windows).
+
+7. UPDATES AND MODIFICATIONS
+   The Developer reserves the right to update, modify, or discontinue the
+   Software without prior notice. Updated versions of this License take
+   effect as soon as they are published on the relevant GitHub
+   repository.
+
+8. DISCLAIMER OF WARRANTY
+   The Software is provided "AS IS", without warranty of any kind, either
+   express or implied. The Developer shall not be held liable for any
+   direct or indirect damages, including but not limited to data loss,
+   system failure, audio hardware issues, or loss of business.
+
+9. LIMITATION OF LIABILITY
+   To the maximum extent permitted by applicable law, the Developer's
+   total liability arising from this Software shall not, under any
+   circumstances, exceed the amount the User paid for the Software (if
+   any). As the Software is provided free of charge, this liability is
+   effectively zero.
+
+10. TERMINATION
+    Your right to use the Software terminates automatically and
+    immediately upon any violation of these license terms. Upon
+    termination, you are expected to delete all copies of the Software.
+
+11. GOVERNING LAW
+    This License is governed by and construed in accordance with the laws
+    of the Republic of Turkey. Any disputes arising from it shall be
+    subject to the exclusive jurisdiction of the courts of Turkey.
+
+12. SEVERABILITY
+    If any provision of this License is held invalid or unenforceable,
+    the remaining provisions shall remain in full effect; the invalid
+    provision shall be deemed replaced by a valid provision that most
+    closely reflects its original intent.
+
+13. ENTIRE AGREEMENT
+    This document constitutes the entire and final agreement between the
+    Developer and the User regarding the use of the Software, and
+    supersedes all prior oral or written agreements.
+
+Contact: reach Kaan Kross / 4R022 via GitHub.
